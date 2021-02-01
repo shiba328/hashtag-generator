@@ -1,0 +1,10 @@
+{
+  "name": "hashtag-generator",
+  "short_name": "hashtag-generator",
+  "description": "My geometric Nuxt.js project",
+  "icons": [],
+  "start_url": "/hashtag-generator/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}
