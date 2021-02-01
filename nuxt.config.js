@@ -1,8 +1,13 @@
+const environment = process.env.NODE_ENV || 'development'
+const env = require(`./env.${environment}.ts`)
 import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
   srcDir: 'src',
+  router: {
+    base: env.BASE_URL  
+  },
   /*
   ** Headers of the page
   */
@@ -15,7 +20,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` }
     ]
   },
   /*
