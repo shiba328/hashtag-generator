@@ -196,7 +196,7 @@ const INIT = {
 export default {
   data: () => {
     return {
-      reverseUrl: 'https://twitter.com/intent/tweet?via=twitter&text=%E3%81%93%E3%82%8C%E3%81%AFWEB%E3%81%8B%E3%82%89%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0%E4%BB%98%E3%81%8D%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E7%94%A8%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E4%BD%9C%E3%82%8B%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A7%E7%94%9F%E6%88%90%E3%81%97%E3%81%9F%E6%96%87%E7%AB%A0%E3%81%A7%E3%81%99&url=https%3A%2F%2Fexample.com%2Fhash-generater&hashtags=%E3%83%86%E3%82%B9%E3%83%88%2C%E3%83%86%E3%82%B9%E3%83%882',
+      reverseUrl: '',
       dialog: false,
       str: {},
       url: '',
